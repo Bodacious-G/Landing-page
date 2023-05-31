@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+  }
+
+.subtext {
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    border-style: solid;
+    margin: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    padding: 8px;
+    
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.team-logo {
+    width: 100px;
+    display: flex;
+}
+
+.links {
+    gap: 25px;
+    margin-right: 25px;
+}
+
+.home {
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.left {
+    display:flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.main-container {
+    display: flex;
+    border-style: solid;
+    height: 2000px;
+    flex-direction: column;
+}
+
+/* #1 info box containing brief info and team image */
+    .main-container > .info {
+        border-style: solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .title-box {
+        margin: 50px;
+        border-style: solid;
+        padding: 50px;
+        border-radius:10px;
+        background-color: black;
+        color: white;
+        width:600px;
+        
+    }
+    
+    .sign-up {
+        border-radius: 10px;
+        background-color: darkgreen;
+        padding: 10px;
+        width: 75px;
+        text-align: center;
+    }
+    
+    .team-photo {
+        display: flex;
+        height: 300px;
+        margin-right: 150px;
+        border-color: black;
+        border-style: solid;
+    }
+
+/* #2 Media box containing our social media links */
+
+/* #3 quote box containing quote from FIRST website */
+.main-container > .quote {
+    background-color: lightgray;
+    border-style: solid;
+    padding: 20px 200px;
+    font-size: 25px;
+    color: black;
+}
+
+/* #4 sponsor box containg info for upcoming sponsors */
+
+
+
