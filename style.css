@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    background: #eee;
+    background: rgb(0, 0, 0);
     font-family: Besley, serif;
   }
 
@@ -53,6 +53,8 @@ ul {
     display: flex;
 }
 
+
+
 .home {
     border-style: solid;
     padding: 10px;
@@ -78,6 +80,7 @@ ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        background-color: lightgray;
     }
     
     .title-box {
@@ -160,6 +163,7 @@ ul {
 
 .sponsor-box {
     margin: 40px auto;
+    margin-bottom: 75px;
     border-style: solid;
     border-radius: 10px;
     background-color: black;
